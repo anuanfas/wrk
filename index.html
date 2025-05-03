@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anfas Portfolio</title>
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "jpIHWp6oAs-_Sr0LU",
+      });
+   })();
+</script>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger" href="#">Anfas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-danger" aria-current="page" href="#first">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="#projects">Project</a>
+          </li>
+        </ul>
+        <a class="btn btn-outline-danger" href="#">Hire Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="first" id="first">
+    <div class="container-lg">
+      <div class="row align-items-center">
+        <div class="col-sm-6">
+          <p>Hai I'm</p>
+          <h1 class="text-danger">Muhammed Anfas</h1>
+          <h2 class="text-danger">Developer</h2>
+          <p>I am a passionate developer with expertise in creating responsive and interactive websites and applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+          <a class="btn btn-outline-danger btn-lg" href="#contact">Contact</a>
+        </div>
+        <div class="col-sm-6 text-center">
+          <img class="rounded-circle img-fluid" src="./my pic.jpg" alt="profile img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skills -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="text-center text-danger pb-3">Skills</h2>
+      <div class="row">
+        <div class="col-md-">
+          <h5>HTML</h5>
+          <div class="progress mb-3"><div class="progress-bar" style="width: 95%;">95%</div></div>
+  
+          <h5>CSS</h5>
+          <div class="progress mb-3"><div class="progress-bar" style="width: 90%;">90%</div></div>
+
+          <h5>JavaScript</h5>
+          <div class="progress mb-3"><div class="progress-bar" style="width: 75%;">75%</div></div>
+  
+          <h5>UI/UX Design</h5>
+          <div class="progress mb-3"><div class="progress-bar" style="width: 85%;">85%</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about -->
+   <section class="about" id="About">
+    <div class="container">
+      <h2 class="text-center text-danger pb-5">About Me</h2>
+      <p class="text-center">I'm a passionate and detail-oriented Web Developer <br>with a strong foundation in front-end and back-end technologies.<br> I specialize in building responsive, user-friendly websites and<br> web applications using modern tools like HTML, CSS, JavaScript, and frameworks <br>such as React, Node.js, and more. I enjoy solving problems through clean, <br>efficient code and take pride in creating seamless digital experiences.<br> Whether collaborating with teams or working independently,<br> I’m committed to continuous learning and delivering high-quality results<br> that meet both user needs and business goals.</p>
+    </div>
+   </section>
+   <!-- project -->
+   <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-danger">Projects</h2>
+      <div class="row text-center">
+        <div class="col-md-4 portfolio-item">
+          <img src="/linkedin .jpg" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#project1Modal" alt="Project 1">
+          <h5 class="mt-2 text-white">linkedin Clone</h5>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <img src="/nave.jpg" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#project2Modal" alt="Project 2">
+          <h5 class="mt-2 text-white">W3S Navbar</h5>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <img src="/form.jpg" class="img-fluid rounded" data-bs-toggle="modal" data-bs-target="#project2Modal" alt="Project 2">
+          <h5 class="mt-2 text-white">Form</h5>
+        </div>
+     
+      </div>
+    </div>
+  </section>
+ 
+    <!-- contact -->
+  <section class="Connect">
+     <div class="container border mt-3 bg-light" id="contact">
+      <div class="row">
+        <div class="col-md-6 p-5 bg-primary text-white">
+          <h1>HI there!</h1>
+          <h3>Contact Me</h3>
+          <h6>I’m always open to discussing new projects, collaborations, or opportunities to contribute to exciting work. Whether you have a question, a proposal, or just want to say hello, feel free to reach out!</h6>
+        </div>
+        <div class="col-md-6 py-3">
+          <h1>Contact Form</h1>
+          <div class="form-group">
+            <h5 for="name">Name</h5>
+            <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+          </div>
+          <div class="form-group">
+            <h5 for="email">Email</h5>
+            <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+          </div>
+          <div class="form-group">
+            <h5 for="message">Message</h5>
+            <textarea id="message" rows="3" class="form-control"></textarea>
+          </div>
+          <button class="btn btn-primary mt-3" onclick="sendMail()">submit</button>
+        </div>
+      </div>
+     </div>
+  </section>
+  <!-- social media -->
+   <section class="social">
+    <div class="container">
+      <h2 class="text-center text-danger pt-3">Let's Connect</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="#"></a>
+        </div>
+      </div>
+    </div>
+
+   </section>
+
+
+
+    
+<!-- <Boostrap> -->
+  <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/bootstrap.js"></script>
+</body>
+</html>

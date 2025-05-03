@@ -1,0 +1,39 @@
+.navbar-nav .nav-link{
+    color: black;
+}
+.navbar-nav .nav-item{
+    padding: 0;
+}
+img{
+    width: 390px;
+    height: 450px;
+    padding-top: 50px;
+
+}
+.img:hover{
+    left: 55%;
+}
+section.first{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.skills{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.about{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+}
+.py-5{
+    background-color: black;
+}
